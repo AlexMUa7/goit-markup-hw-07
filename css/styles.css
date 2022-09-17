@@ -29,6 +29,8 @@ p {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 .link {
@@ -599,7 +601,8 @@ textarea {
 
 .icons-header,
 .social-icons,
-.social-iist {
+.social-iist,
+.customers__icons {
   fill: currentColor;
 }
 
@@ -645,6 +648,8 @@ textarea {
   fill: #ffffff;
   background-color: #2196f3;
 }
+
+/*Customers*/
 
 .customers__list {
   display: flex;
